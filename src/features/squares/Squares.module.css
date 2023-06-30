@@ -1,0 +1,56 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.row > button {
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+.addButton {
+  appearance: none;
+  font-size: 32px;
+  padding: 5px 14px;
+  outline: none;
+  border: none;
+  color: rgb(11 137 39);
+  cursor: pointer;
+  background-color: rgb(225 247 230);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.addButton:hover {
+  background-color: rgb(178, 241, 193);
+}
+
+.removeButton {
+  appearance: none;
+  font-size: 32px;
+  padding: 5px 14px;
+  outline: none;
+  border: none;
+  color: rgb(203 34 65);
+  cursor: pointer;
+  background-color: rgb(245 228 231);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.removeButton:hover {
+  background-color: rgb(243, 206, 212);
+}
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content;
+}
+
+.square {
+  width: 20vw;
+  height: 20vw;
+}
